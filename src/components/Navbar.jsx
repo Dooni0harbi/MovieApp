@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [currentUser]);
 
 
-  
+
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (menuRef.current && !menuRef.current.contains(e.target)) {
@@ -33,15 +33,12 @@ const Navbar = () => {
         <Link className="text-2xl font-semibold" to="/">
      <h1> React Movie App</h1>
     </Link>
-  
     <div className="flex items-center gap-4" ref={menuRef}>
       <Switch />
-
       {currentUser && (
         <span className="text-sm capitalize text-gray-800 dark:text-neutral-200">
           Hello, {currentUser.displayName}
-        </span>
-      )}
+        </span>)}
 
       <div className="relative">
         <button
@@ -57,7 +54,6 @@ const Navbar = () => {
             referrerPolicy="no-referrer"
           />
         </button>
-
         {menuOpen && (
           <ul className="absolute right-0 mt-2 w-40 bg-white dark:bg-neutral-700 border rounded-lg shadow-lg z-50">
             {currentUser ? (
