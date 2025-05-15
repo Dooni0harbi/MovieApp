@@ -1,12 +1,22 @@
-# React + Vite
+Description
+The project aims to create a Movie App using ReactJS and Firebase.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Problem Statement
+You and your colleagues are working on a new project to add to your portfolios: a Movie App.
 
-Currently, two official plugins are available:
+Objective
+Build a MovieApp using ReactJS, Firebase and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Topics to be Covered
+HTML
+CSS
+JavaScript
+ReactJS
+Firebase
+Vite
 
-## Expanding the ESLint configuration
+App Demo:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![movieapp2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/eb11a19d-ffb4-4567-8f3c-c8fc027cd6f6)
+
+
